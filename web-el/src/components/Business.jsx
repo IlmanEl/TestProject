@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { features } from '../constans';
 
-const Business = () => {
-  return (
-    <div>Business</div>
+import styles , { layout } from '../style';
+import Button from './Button';
+
+const Business = () => (
+    <section id='features' className={layout.section}></section>
   )
-}
+
 
 export default Business
